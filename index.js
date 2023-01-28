@@ -1,7 +1,6 @@
 
-
-const express=require('express')
 require('dotenv').config()
+const express=require('express')
 const {graphqlHTTP}=require('express-graphql')
 const schema=require('./schema/schema')
 const cors=require('cors')
